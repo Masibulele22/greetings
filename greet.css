@@ -1,0 +1,76 @@
+html {
+    background: url(universe8.jpg) no-repeat center center fixed;
+    background-color: blue;
+    /* background-color: blue; */
+}
+
+body {
+    font-family: "Boogaloo", cursive;
+    color: blue;
+    text-align: center;
+}
+
+.n1 {
+    font-family: "Boogaloo", cursive;
+    color: blue;
+    font-size: 100px;
+    text-align: center;
+    
+}
+
+.n2 {
+    font-family: "Boogaloo", cursive;
+    color: blue;
+    font-size: 100px;
+    text-align: center;
+}
+
+.n3 {
+    margin-left: 5px;
+    opacity: 0.1;
+}
+
+.n4 {
+    font-family: "Boogaloo", cursive;
+    color: white;
+    margin-left: 885px;
+    font-size: 30px;
+    background-color: blue;
+}
+
+footer {
+    font-family: "Boogaloo", cursive;
+    text-align: center;
+}
+
+.n5 {
+    padding-left: 650; 
+    padding-right: 300;
+    text-align: center;
+}
+
+.n7 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.n10 {
+    text-align: center;
+
+}
+
+.n11 {
+    text-align: center;
+
+}
+
+.n12 {
+    text-align: center;
+
+}
+
+.n13 {
+    font-size: 30px;
+    text-align: center;
+}
+
