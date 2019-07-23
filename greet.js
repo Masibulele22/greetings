@@ -1,33 +1,39 @@
-// var nameInputElement = document.querySelector(".nameInput");
-// var greetMeButton = document.querySelector(".n4");
-// var nameOutputElement = document.querySelector(".n5");
+function greetBack(nameList) {
+    var names = nameList || {};
+    
+    function greet(name, language) {
+        var capsNames = name.toUpperCase().charAt(0) + name.slice(1);
+        if(names[capsNames] === undefined){
+            names[capsNames] = 0;
+        }
 
-// function greetBtnClicked(){
-// var newName = "Hello " + nameInputElement.value;
-// nameOutputElement.innerHTML = newName;
-// }
+        if (language === "isiXhosa") {
+            return "Molo " + name;
+        }
 
-// greetMeButton.addEventListener('click', greetBtnClicked);
+        else if (language === "English") {
+            return "Hello " + name;
+        }
 
-function greetBack(){
-    var names = '';
-    var nameCounter = 0;
+        else if (language === "Afrikaans") {
+            return "Goeie Dag " + name;
+        }
 
-    function setName(name){
-        names = name;
     }
 
-    function getName(){
+    function getName() {
         return names
     }
+    
+    function counter() {
+        var countNames = Object.keys(names)
+        return countNames.length;
 
-    function nameCounter(){
-        return name++
     }
 
     return {
-        setName,
         getName,
-        nameCounter,
+        greet,
+        counter
     }
 };

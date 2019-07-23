@@ -11,31 +11,33 @@
 </head>
 
 <body>
-    <div class="n1">Greeting</div>
-    <div class="n2">Name
+    <div class="row">Greeting</div>
+    <div class="row1">Name
         <textarea class="nameInput" id="n3" rows="4px" cols="60" placeholder="Type your name here" value=""></textarea>
     </div>
-    <span></span>
-    <div class="n7">
-        <input class="n8" type="radio" value="Eng">English</input> 
-        <input class="n9" type="radio" value="Xho">IsiXhosa</input>
-        <input class="n10" type="radio" value="Afr">Afrikaans</input>
+    <div class="row2">
+        <input class="column2a" type="radio" name="radioBtn" value="English">English</input>
+        <input class="column2b" type="radio" name="radioBtn" value="isiXhosa">IsiXhosa</input>
+        <input class="column2c" type="radio" name="radioBtn" value="Afrikaans">Afrikaans</input>
     </div>
-    </div class="n13">
-        <span class="n11">Hello<span class="n12">10</span></span>
+    </div class="row3">
+    <span class="column3"></span>
     </div>
-</body>
+    <div id="mocha"></div>
+    <div class="row4">
+        <button class="column4" name="greetBtn" type="button" autofocus="autofocus">Greet Me!</button>
+        <button class="column5" name="resetBtn" type="button" autofocus="autofocus">Reset!</button>        
+    </div>
 
-<div>
-    <button class="n4" type="button" autofocus="autofocus">Greet Me!</button>
-</div>
-<div>
-    <span class="n5"><span class="n6"></span></span>
-</div>
-<script src="greet.js"></script>
+    <div class="row5"><span class="column6"></span></div>
+
+    <script src="greet.js" charset="utf-8"></script>
+    <script src="greet-dom.js" charset="utf-8"></script>
+
+</body>
 
 </html>
 
 <footer>
-        MRN Websites © All Rights Reserved 2019
+    MRN Websites © All Rights Reserved 2019
 </footer>

@@ -1,28 +1,21 @@
 html {
-    background: url(universe8.jpg) no-repeat center center fixed;
-    background-color: blue;
-    /* background-color: blue; */
+    background: url(a.jpg) no-repeat center center fixed;    /* background-color: blue; */
+    margin: 0%;
+    padding: 0%;
+    color: blue;
+}
+
+.radio {
+    width:50px;
+    height:50px;
+    border-radius:50%;
 }
 
 body {
     font-family: "Boogaloo", cursive;
-    color: blue;
     text-align: center;
-}
-
-.n1 {
-    font-family: "Boogaloo", cursive;
-    color: blue;
-    font-size: 100px;
-    text-align: center;
-    
-}
-
-.n2 {
-    font-family: "Boogaloo", cursive;
-    color: blue;
-    font-size: 100px;
-    text-align: center;
+    margin: 0%;
+    padding: 0%;
 }
 
 .n3 {
@@ -30,47 +23,106 @@ body {
     opacity: 0.1;
 }
 
-.n4 {
+.row {
+    font-family: "Boogaloo", cursive;
+    font-size: 100px;
+    text-align: center;
+    height: 22%;        
+
+}
+
+.row1 {
+    font-family: "Boogaloo", cursive;
+    color: blue;
+    font-size: 100px;
+    text-align: center;
+    height: 22%;
+
+}
+
+.row2 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Boogaloo", cursive;
+    text-align: center;
+    height: 10%;
+
+}
+
+.row3 {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 40px;
+    height: 10%;
+}
+
+.row4 {
+    margin-top: 2%;
+    height: 10%;
+}
+
+.row5 {
+    margin-top: 2%;
+    height: 10%;
+}
+
+.column2a {
+    text-align: left; 
+    width:30px;
+    height:30px;
+    border-radius:5%;
+    margin-right: 10px;
+}
+
+.column2b {
+    text-align: left;
+    width:30px;
+    height:30px;
+    border-radius:5%;
+    margin-right: 10px;
+}
+
+.column2c {
+    text-align: left;
+    width:30px;
+    height:30px;
+    border-radius:5%;
+}
+
+.column3 {
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.column4 {
     font-family: "Boogaloo", cursive;
     color: white;
-    margin-left: 885px;
+    text-align: center;
     font-size: 30px;
     background-color: blue;
 }
 
-footer {
+.column5 {
     font-family: "Boogaloo", cursive;
-    text-align: center;
-}
-
-.n5 {
-    padding-left: 650; 
-    padding-right: 300;
-    text-align: center;
-}
-
-.n7 {
+    color: white;
     text-align: center;
     font-size: 30px;
-}
-
-.n10 {
-    text-align: center;
+    background-color: blue;
 
 }
 
-.n11 {
+.column6 {
     text-align: center;
-
+    font-size: 40px;
+    
 }
 
-.n12 {
-    text-align: center;
-
-}
-
-.n13 {
-    font-size: 30px;
-    text-align: center;
+footer {
+    margin-top: 2%;
+    display: flexbox;
+    height: 6%;
 }
 
