@@ -3,6 +3,11 @@ function greetBack(nameList) {
     
     function greet(name, language) {
         var capsNames = name.toUpperCase().charAt(0) + name.slice(1);
+        
+        if(name === ""){
+            return "Please enter your name"
+        }
+
         if(names[capsNames] === undefined){
             names[capsNames] = 0;
         }
@@ -30,6 +35,7 @@ function greetBack(nameList) {
         return countNames.length;
 
     }
+
 
     return {
         getName,
