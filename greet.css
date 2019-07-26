@@ -1,13 +1,31 @@
 html {
+    height: 100%;
+    width: 100%;
     background: url(a.jpg) no-repeat center center fixed;    
     margin: 0%;
     padding: 0%;
     color: blue;
 }
 
+header {
+    height: 0%;
+}
+
+.nameInput {
+    font-family: "Boogaloo", cursive;
+    font-size: 60%;
+    
+}
+
+textarea {
+    background: url(logo.jpg)no-repeat center center no-repeat;
+    
+
+}
+
 .radio {
-    width:50px;
-    height:50px;
+    width: 50%;
+    height: 50%;
     border-radius:50%;
 }
 
@@ -16,16 +34,20 @@ body {
     text-align: center;
     margin: 0%;
     padding: 0%;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 15% 20% 10%;
+    grid-row-gap: 1%;
+
 }
 
 .n3 {
-    margin-left: 5px;
+    margin-left: 5%;
     opacity: 0.1;
 }
 
 .row {
     font-family: "Boogaloo", cursive;
-    font-size: 100px;
+    font-size: 600%;
     text-align: center;
     height: 22%;        
 
@@ -34,14 +56,14 @@ body {
 .row1 {
     font-family: "Boogaloo", cursive;
     color: blue;
-    font-size: 100px;
+    font-size: 600%;
     text-align: center;
     height: 22%;
 
 }
 
 .row2 {
-    margin: 0px;
+    margin-top: 2%;
     padding: 0px;
     text-align: center;
     font-size: 40px;
@@ -56,16 +78,20 @@ body {
     text-align: center;
     font-size: 40px;
     height: 10%;
+    
 }
 
 .row4 {
     margin-top: 2%;
     height: 10%;
+    
 }
 
 .row5 {
     margin-top: 2%;
-    height: 10%;
+    margin-bottom: 2%;
+    height: 40px;
+    
 }
 
 .column2a {
@@ -94,7 +120,8 @@ body {
 .column3 {
     font-size: 60px;
     text-align: center;
-
+    height: 30px;
+    width: 100%;
 }
 
 .column4 {
@@ -118,11 +145,5 @@ body {
     text-align: center;
     font-size: 40px;
     
-}
-
-footer {
-    margin-top: 2%;
-    display: flexbox;
-    height: 6%;
 }
 

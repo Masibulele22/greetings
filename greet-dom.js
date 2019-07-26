@@ -1,10 +1,10 @@
 var nameInputElement = document.querySelector(".nameInput");
-var dataDisplayElement = document.querySelector(".column3");
-var greetingElement = document.querySelector(".column4");
-var resetElement = document.querySelector(".column5");
 var radioBtnElement = document.querySelector(".column2a");
 var radioBtnElement = document.querySelector(".column2b");
 var radioBtnElement = document.querySelector(".column2c");
+var dataDisplayElement = document.querySelector(".column3");
+var greetingElement = document.querySelector(".column4");
+var resetElement = document.querySelector(".column5");
 var counterElem = document.querySelector(".column6");
 
 if(localStorage['name'] !== undefined){
@@ -35,4 +35,8 @@ resetElement.addEventListener('click', function() {
     window.location.reload();
 });
 
-
+window.onload = function(){
+    var localCounter = JSON.stringify(factoryInstance.counter())
+    counterElem.innerHTML = localCounter;
+   
+}; 

@@ -43,3 +43,4 @@ function greetBack(nameList) {
         counter
     }
 };
+
