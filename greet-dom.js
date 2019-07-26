@@ -20,6 +20,9 @@ var factoryInstance = greetBack(storeNames);
 function greeting() {
     var checkedRadioBtn = document.querySelector("input[name='radioBtn']:checked");
     var name = nameInputElement.value;
+    if(!checkedRadioBtn) {
+        dataDisplayElement.innerHTML = "Please select language!"
+    }
     var greeting = factoryInstance.greet(name, checkedRadioBtn.value);
     dataDisplayElement.innerHTML = greeting;
     counterElem.innerHTML = factoryInstance.counter()

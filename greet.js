@@ -13,15 +13,15 @@ function greetBack(nameList) {
         }
 
         if (language === "isiXhosa") {
-            return "Molo " + name;
+            return "Molo " + capsNames;
         }
 
         else if (language === "English") {
-            return "Hello " + name;
+            return "Hello " + capsNames;
         }
 
         else if (language === "Afrikaans") {
-            return "Goeie Dag " + name;
+            return "Goeie Dag " + capsNames;
         }
 
     }
